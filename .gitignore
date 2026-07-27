@@ -1,0 +1,27 @@
+# IDE
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Test results
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Authentication/session state
+playwright/.auth/
+auth.json
+storageState.json
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
